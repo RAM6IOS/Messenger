@@ -13,6 +13,14 @@
 		042D6FA1263720FE001BECFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042D6FA0263720FE001BECFC /* Preview Assets.xcassets */; };
 		042D6FAC263720FE001BECFC /* MessagingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D6FAB263720FE001BECFC /* MessagingTests.swift */; };
 		042D6FB7263720FE001BECFC /* MessagingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D6FB6263720FE001BECFC /* MessagingUITests.swift */; };
+		042D6FC82637245F001BECFC /* SingnInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D6FC72637245F001BECFC /* SingnInView.swift */; };
+		042D6FCA263724AE001BECFC /* SinUpViw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D6FC9263724AE001BECFC /* SinUpViw.swift */; };
+		042D6FCC26372502001BECFC /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D6FCB26372502001BECFC /* ChatView.swift */; };
+		042D6FCE26372520001BECFC /* ChatRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D6FCD26372520001BECFC /* ChatRow.swift */; };
+		042D6FD026372550001BECFC /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D6FCF26372550001BECFC /* SearchView.swift */; };
+		042D6FD2263725A4001BECFC /* SendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D6FD1263725A4001BECFC /* SendButton.swift */; };
+		042D6FD42637268E001BECFC /* AppStateModet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D6FD32637268E001BECFC /* AppStateModet.swift */; };
+		042D6FD6263726D9001BECFC /* Massegs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D6FD5263726D9001BECFC /* Massegs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,14 @@
 		042D6FB2263720FE001BECFC /* MessagingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessagingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042D6FB6263720FE001BECFC /* MessagingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingUITests.swift; sourceTree = "<group>"; };
 		042D6FB8263720FF001BECFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042D6FC72637245F001BECFC /* SingnInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingnInView.swift; sourceTree = "<group>"; };
+		042D6FC9263724AE001BECFC /* SinUpViw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinUpViw.swift; sourceTree = "<group>"; };
+		042D6FCB26372502001BECFC /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		042D6FCD26372520001BECFC /* ChatRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRow.swift; sourceTree = "<group>"; };
+		042D6FCF26372550001BECFC /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		042D6FD1263725A4001BECFC /* SendButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendButton.swift; sourceTree = "<group>"; };
+		042D6FD32637268E001BECFC /* AppStateModet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateModet.swift; sourceTree = "<group>"; };
+		042D6FD5263726D9001BECFC /* Massegs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Massegs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +111,9 @@
 		042D6F98263720F9001BECFC /* Messaging */ = {
 			isa = PBXGroup;
 			children = (
-				042D6F99263720F9001BECFC /* MessagingApp.swift */,
-				042D6F9B263720F9001BECFC /* ContentView.swift */,
-				042D6F9D263720FD001BECFC /* Assets.xcassets */,
+				042D6FC6263721AE001BECFC /* Ressources */,
+				042D6FC526372155001BECFC /* Models */,
+				042D6FC426372136001BECFC /* Views */,
 				042D6FA2263720FE001BECFC /* Info.plist */,
 				042D6F9F263720FE001BECFC /* Preview Content */,
 			);
@@ -128,6 +144,38 @@
 				042D6FB8263720FF001BECFC /* Info.plist */,
 			);
 			path = MessagingUITests;
+			sourceTree = "<group>";
+		};
+		042D6FC426372136001BECFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				042D6F9B263720F9001BECFC /* ContentView.swift */,
+				042D6FC72637245F001BECFC /* SingnInView.swift */,
+				042D6FC9263724AE001BECFC /* SinUpViw.swift */,
+				042D6FCB26372502001BECFC /* ChatView.swift */,
+				042D6FCD26372520001BECFC /* ChatRow.swift */,
+				042D6FCF26372550001BECFC /* SearchView.swift */,
+				042D6FD1263725A4001BECFC /* SendButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		042D6FC526372155001BECFC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				042D6FD32637268E001BECFC /* AppStateModet.swift */,
+				042D6FD5263726D9001BECFC /* Massegs.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		042D6FC6263721AE001BECFC /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				042D6F9D263720FD001BECFC /* Assets.xcassets */,
+				042D6F99263720F9001BECFC /* MessagingApp.swift */,
+			);
+			path = Ressources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +307,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042D6FD42637268E001BECFC /* AppStateModet.swift in Sources */,
 				042D6F9C263720F9001BECFC /* ContentView.swift in Sources */,
+				042D6FD2263725A4001BECFC /* SendButton.swift in Sources */,
+				042D6FD6263726D9001BECFC /* Massegs.swift in Sources */,
+				042D6FC82637245F001BECFC /* SingnInView.swift in Sources */,
+				042D6FCC26372502001BECFC /* ChatView.swift in Sources */,
+				042D6FD026372550001BECFC /* SearchView.swift in Sources */,
+				042D6FCA263724AE001BECFC /* SinUpViw.swift in Sources */,
+				042D6FCE26372520001BECFC /* ChatRow.swift in Sources */,
 				042D6F9A263720F9001BECFC /* MessagingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
